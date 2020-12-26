@@ -1,3 +1,3 @@
-## Research
+## Research blog
 
-Not up to date probably.
+Research highlights.
