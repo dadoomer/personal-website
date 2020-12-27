@@ -1,3 +1,3 @@
-# About me
+# About
 
-Something about me.
+You can see my coding habits at [gitlab.com/users/da_doomer](https://gitlab.com/da_doomer).

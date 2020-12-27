@@ -1,3 +1,3 @@
-## Leonardo Hernández Cano
+## I am Leo
 
-Welcome to my website.
+My name is Leonardo Hernández Cano, welcome to my website.
