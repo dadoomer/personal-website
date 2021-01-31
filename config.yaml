@@ -1,8 +1,8 @@
 baseURL: https://www.iamleo.space
 languageCode: en-us
 defaultContentLanguage: en
-title: Leonardo Hernández Cano website
-theme: cupper-hugo-theme
+title: Leonardo Hernández Cano's website
+theme: ["hugo-video", "cupper-hugo-theme"]
 enableGitInfo: true
 
 taxonomies:
@@ -15,20 +15,14 @@ imaging:
   quality: 99
 
 params:
-  description: Computer scientist by trade, musician by love, daydreamer.
-  homeMetaContent: Computer scientist by trade, musician by love, daydreamer.
+  description: Computer scientist.
+  homeMetaContent: Computer scientist.
   footer: Contact me at leohc at mit dot edu.
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   katex: true
   hideHeaderLinks: false
   search: true
-  customCss:
-    - css/custom_01.css
-    - css/custom_02.css
-  customJs:
-    - js/custom_01.js
-    - js/custom_02.js
 
 menu:
   nav:
@@ -41,15 +35,18 @@ menu:
     - name: Research
       url: /research/
       weight: 2
+    - name: Software
+      url: /software/
+      weight: 3
     - name: Tags
       url: /tags/
-      weight: 3
+      weight: 4
     - name: About
       url: /about/
-      weight: 4
+      weight: 5
     - name: RSS
       url: /index.xml
-      weight: 5
+      weight: 6
 
 markup:
   defaultMarkdownHandler: goldmark

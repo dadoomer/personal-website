@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    if: |
+      !contains(toJSON(github.event.commits.*.message), '[skip ci]') &&
+      !contains(toJSON(github.event.commits.*.message), '[ci skip]')
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+        persist-credentials: false # minimize exposure and prevent accidental pushes
+
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+
+    - name: Cache dependencies
+      uses: actions/cache@v2
+      with:
+        path: |
+          .yarn/cache
+          .pnp.js
+        key: yarn-deps-v1-${{ hashFiles('yarn.lock') }}
+        restore-keys: |
+          yarn-deps-v1-
+
+    - name: Install dependencies
+      run: yarn --immutable
+      env:
+        YARN_ENABLE_SCRIPTS: 0 # disable postinstall scripts
+
+    - name: Lint code
+      run: yarn test:lint
+
+    - name: Run Flow
+      run: yarn test:flow
+      if: always()
+
+    - name: Run Jest tests
+      run: yarn test:jest --coverage
+      if: always()
+
+    - uses: codecov/codecov-action@v1
+      with:
+        directory: ./coverage/
+      timeout-minutes: 3
