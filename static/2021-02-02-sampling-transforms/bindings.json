@@ -1,0 +1,310 @@
+{
+    "make red": [
+        {
+            "code": "color = \"#df4740\"",
+            "key": "color",
+            "value": "#df4740"
+        }
+    ],
+    "make green": [
+        {
+            "code": "color = \"#20a16b\"",
+            "key": "color",
+            "value": "#20a16b"
+        }
+    ],
+    "make blue": [
+        {
+            "code": "color = \"#13c4f7\"",
+            "key": "color",
+            "value": "#13c4f7"
+        }
+    ],
+    "make dashed": [
+        {
+            "code": "linestyle = \"--\"",
+            "key": "linestyle",
+            "value": "--"
+        }
+    ],
+    "make purple": [
+        {
+            "code": "color = \"#7944c2\"",
+            "key": "color",
+            "value": "#7944c2"
+        }
+    ],
+    "make bold": [
+        {
+            "code": "linewidth = \"4.277281582293178\"",
+            "key": "linewidth",
+            "value": "4.277281582293178"
+        }
+    ],
+    "make thin": [
+        {
+            "code": "linewidth = \"1.3269587666893714\"",
+            "key": "linewidth",
+            "value": "1.3269587666893714"
+        }
+    ],
+    "make brown": [
+        {
+            "code": "color = \"#59322a\"",
+            "key": "color",
+            "value": "#59322a"
+        }
+    ],
+    "make dotted": [
+        {
+            "code": "linestyle = \"--\"",
+            "key": "linestyle",
+            "value": "--"
+        }
+    ],
+    "change markers": [
+        {
+            "code": "marker = \"v\"",
+            "key": "marker",
+            "value": "v"
+        }
+    ],
+    "make bolder": [
+        {
+            "code": "linewidth = \"4.123208998280626\"",
+            "key": "linewidth",
+            "value": "4.123208998280626"
+        }
+    ],
+    "make orange": [
+        {
+            "code": "color = \"#e6793a\"",
+            "key": "color",
+            "value": "#e6793a"
+        }
+    ],
+    "red": [
+        {
+            "code": "color = \"#df4740\"",
+            "key": "color",
+            "value": "#df4740"
+        }
+    ],
+    "make plot green": [
+        {
+            "code": "color = \"#20a16b\"",
+            "key": "color",
+            "value": "#20a16b"
+        }
+    ],
+    "make marker dots": [
+        {
+            "code": "linestyle = \"--\"",
+            "key": "linestyle",
+            "value": "--"
+        }
+    ],
+    "make it green": [
+        {
+            "code": "color = \"#20a16b\"",
+            "key": "color",
+            "value": "#20a16b"
+        }
+    ],
+    "make triangles": [
+        {
+            "code": "marker = \"v\"",
+            "key": "marker",
+            "value": "v"
+        }
+    ],
+    "triangle markers": [
+        {
+            "code": "marker = \"v\"",
+            "key": "marker",
+            "value": "v"
+        }
+    ],
+    "marker triangles": [
+        {
+            "code": "marker = \"v\"",
+            "key": "marker",
+            "value": "v"
+        }
+    ],
+    "line markers": [
+        {
+            "code": "marker = \"1\"",
+            "key": "marker",
+            "value": "1"
+        }
+    ],
+    "markers": [
+        {
+            "code": "marker = \"1\"",
+            "key": "marker",
+            "value": "1"
+        }
+    ],
+    "green": [
+        {
+            "code": "color = \"#20a16b\"",
+            "key": "color",
+            "value": "#20a16b"
+        }
+    ],
+    "orange": [
+        {
+            "code": "color = \"#e6793a\"",
+            "key": "color",
+            "value": "#e6793a"
+        }
+    ],
+    "purple": [
+        {
+            "code": "color = \"#a870b4\"",
+            "key": "color",
+            "value": "#a870b4"
+        }
+    ],
+    "dots": [
+        {
+            "code": "marker = \".\"",
+            "key": "marker",
+            "value": "."
+        }
+    ],
+    "make dots": [
+        {
+            "code": "marker = \".\"",
+            "key": "marker",
+            "value": "."
+        }
+    ],
+    "make plot blue": [
+        {
+            "code": "color = \"#13c4f7\"",
+            "key": "color",
+            "value": "#13c4f7"
+        }
+    ],
+    "make it red": [
+        {
+            "code": "color = \"#df4740\"",
+            "key": "color",
+            "value": "#df4740"
+        }
+    ],
+    "make it thicker": [
+        {
+            "code": "linewidth = \"4.123208998280626\"",
+            "key": "linewidth",
+            "value": "4.123208998280626"
+        }
+    ],
+    "make it dotted": [
+        {
+            "code": "linestyle = \"--\"",
+            "key": "linestyle",
+            "value": "--"
+        }
+    ],
+    "make it thick": [
+        {
+            "code": "linewidth = \"4.968221445063458\"",
+            "key": "linewidth",
+            "value": "4.968221445063458"
+        }
+    ],
+    "cheese on tast": [
+        {
+            "code": "color = \"#e6793a\"",
+            "key": "color",
+            "value": "#e6793a"
+        }
+    ],
+    "make it fatter": [
+        {
+            "code": "linewidth = \"4.277281582293178\"",
+            "key": "linewidth",
+            "value": "4.277281582293178"
+        }
+    ],
+    "make marker triangle": [
+        {
+            "code": "marker = \"v\"",
+            "key": "marker",
+            "value": "v"
+        }
+    ],
+    "make it blue": [
+        {
+            "code": "color = \"#13c4f7\"",
+            "key": "color",
+            "value": "#13c4f7"
+        }
+    ],
+    "make plot thicker": [
+        {
+            "code": "linewidth = \"4.277281582293178\"",
+            "key": "linewidth",
+            "value": "4.277281582293178"
+        }
+    ],
+    "make plot red": [
+        {
+            "code": "color = \"#df4740\"",
+            "key": "color",
+            "value": "#df4740"
+        }
+    ],
+    "make plot thinner": [
+        {
+            "code": "linewidth = \"1.3269587666893714\"",
+            "key": "linewidth",
+            "value": "1.3269587666893714"
+        }
+    ],
+    "make dash line": [
+        {
+            "code": "linestyle = \"--\"",
+            "key": "linestyle",
+            "value": "--"
+        }
+    ],
+    "make thicker": [
+        {
+            "code": "linewidth = \"4.277281582293178\"",
+            "key": "linewidth",
+            "value": "4.277281582293178"
+        }
+    ],
+    "marker triangle": [
+        {
+            "code": "marker = \"v\"",
+            "key": "marker",
+            "value": "v"
+        }
+    ],
+    "make marker squares": [
+        {
+            "code": "marker = \"_\"",
+            "key": "marker",
+            "value": "_"
+        }
+    ],
+    "increase marker size": [
+        {
+            "code": "markeredgewidth = \"4.506712743638769\"",
+            "key": "markeredgewidth",
+            "value": "4.506712743638769"
+        }
+    ],
+    "line dashed": [
+        {
+            "code": "linestyle = \"--\"",
+            "key": "linestyle",
+            "value": "--"
+        }
+    ]
+}

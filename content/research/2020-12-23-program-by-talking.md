@@ -4,6 +4,7 @@ subtitle: Program by talking!
 date: 2020-12-23
 ---
 
-Program by talking. You can see a working demo at
-[plots.iamleo.space](http://plots.iamleo.space) with the live bindings
-at [plots.iamleo.space/bindings.json](http://plots.iamleo.space/bindings.json).
+Work in progress with Yewen Pu and Robert Hawkins :D
+
+Program by talking. You can see an early prototype interface at
+[plots.iamleo.space](http://plots.iamleo.space).

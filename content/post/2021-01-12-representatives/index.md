@@ -1,7 +1,7 @@
 ---
 title: Representative programs
 date: 2021-01-12
-tags: ["program by talking", "manifold learning" ]
+tags: ["program by talking", "manifold learning", "data visualization"]
 ---
 
 Here I document a very simple way to use manifold-learning techniques to form

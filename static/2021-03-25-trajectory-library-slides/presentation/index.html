@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>The case for modular policies</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+		<!-- Theme used for syntax highlighted code -->
+<link rel="stylesheet" href="plugin/highlight/zenburn.css" id="highlight-theme"></head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<section data-markdown  ><textarea data-template>
+[comment]: # (compile this presentation with markdown-slides)
+
+# The case for modular policies
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+**(Approximate) Problem statement**
+
+Find a state-space policy that can accomplish a set of (possibly unseen)
+"mission plans".
+
+(*take off to 100m, cruise for 1500m, etc.*)
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+Goal: UAV control for a fixed robot design.
+
+| Input | Output |
+|-------|--------|
+| Structured way-point sequences | Mapping from observations to actions |
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+How (and why) should we use a library of primitive policies for robust control?
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+Selected prior art:
+
+- Majumdar and Tedrake, **Funnel Libraries for Real-Time Robust Feedback Motion
+	Planning**, 2017.
+
+- Andreas and Klein and Levine, **Modular Multitask Reinforcement Learning with
+	Policy Sketches**, 2017.
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+![Funnel composability](media/funnels.png) <!-- .element: style="height:50vh; max-width:80vw;" -->
+
+(Majumdar and Tedrake, 2017)
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+![Policy sketches](media/sketches.png) <!-- .element: style="height:50vh; max-width:80vw;" -->
+
+(Andreas and Klein and Levine, 2017)
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+Specific key takeaways:
+
+- Characterization of sequential composition as a property of reachable sets.
+
+- Execution of symbolic plans composed of sub-tasks.
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+Library policies pros:
+
+- Cheaper than designing a global control law.
+
+- More robust than single trajectory plans.
+
+- Capability can be increased by extending library.
+
+- Limits of the system can be understood.
+
+- Control theory + ML = best of multiple worlds.
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+**Input:** set of structured way-point sequences.
+
+**Output:** state-space modular policy.
+
+1. Primitive policy set: parametrized policies (state + target to actions).
+
+2. Library optimization: find primitive modules for each sub-task.
+
+3. Return the library (equipped with the required run-time algorithms).
+
+</textarea></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+Reveal.initialize({
+controls : false,
+markdown : {smartypants: true},
+				hash: true,
+				math: {
+					local: 'KaTeX/katex.js'
+				},
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			});
+		</script>
+	</body>
+</html>
