@@ -35,21 +35,12 @@ menu:
     - name: Research
       url: /research/
       weight: 2
-    - name: Software
-      url: /software/
-      weight: 3
     - name: Tags
       url: /tags/
       weight: 4
     - name: About
       url: /about/
       weight: 5
-    - name: Extra
-      url: /extra/
-      weight: 6
-    - name: RSS
-      url: /index.xml
-      weight: 7
 
 markup:
   defaultMarkdownHandler: goldmark

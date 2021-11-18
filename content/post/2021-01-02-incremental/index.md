@@ -395,14 +395,12 @@ but experiments are still ongoing**)
 
 We have proposed a population-based algorithm for extending state machines. The
 algorithm can synthesize policies from scratch by "extending" the empty state
-machine, as well as extend pre-trained state machines to perform in novel
-environments without degrading performance in the original tasks. The proposed
+machine. The proposed
 algorithm is simple to implement and does not require access to gradients.
 
-We tested our algorithm in simulation on two locomotion tasks, first on a
-simple "mostly flat" terrain and then extending the resulting policy to
-traverse terrains with stairs, gaps and obstacles. Results showed that
-the proposed algorithm succesfully optimizes state machine extensions.
+We tested our algorithm in simulation on the locomotion task on a simple
+"mostly flat" terrain. Results showed that the proposed algorithm succesfully
+optimizes state machines.
 
 In future work we plan to further exploit the modular and programmatic aspects
 of state machines for joint optimization of robot controllers and robot design.

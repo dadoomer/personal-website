@@ -38,10 +38,10 @@ deep-learning libraries) offer the possibility of *one line install and
 seamless use of complex program synthesis libraries*.
 
 To show this, a proof-of-concept implementation was written in Python 3.9. The
-implementation does not perform actual program synthesis, rather, it
-manipulates Abstract Syntax Tress in a predefined way. While not showcasing
-program synthesis techniques, it does show that usage and implementation of the
-library's front-end components is not overly complex.
+implementation uses an an enumeration-based synthesizer to manipulate Abstract
+Syntax Tress. While not showcasing program synthesis techniques, it does show
+that usage and implementation of the library's front-end components is not
+overly complex.
 
 ### Designing the library
 
@@ -57,11 +57,6 @@ some of Python's capabilities include:
 	invocations of them.
 
 - Evaluation of strings as source code.
-
-We will hard-code a dummy synthesizer into the system, as our goal is to
-explore the use of Python and its capabilities and not the program synthesis
-techniques themselves. Specifically, the dummy synthesizer takes an Abstract
-Syntax Tree and manipulates it in a pre-defined way to find the output code.
 
 ### Seamless integration
 
@@ -94,7 +89,7 @@ print(synthesizer.sourcecode(f))
 print(f([1, 2, 3], 10))
 ```
 
-The actual output of that code is as follows:
+The actual output of that code to stdout is as follows:
 
 ```
 def f(A: List[int], k: int) -> List[int]:
@@ -156,9 +151,13 @@ synthesizer = Synthesizer(fake_synthesizer)
 
 ## Backend
 
-In this case we use a dummy back-end which manipulates AST's in a predefined
-way. While limited in its usability, it shows that actual program synthesis
-techniques can be easily incorporated.
+In this case we use a simple enumerative back-end synthesizer to manipulate
+AST's in a predefined way. While limited in its usability, it shows that actual
+program synthesis techniques can be easily incorporated. The source-code
+for this can be consulted in the repository at the bottom.
+
+For the sake of conciseness in this summary document we show a simple
+hard-coded manipulation of the AST:
 
 ```
 ...
@@ -192,4 +191,4 @@ Python's reflective capabilities allow (1) clean implementation of a
 program synthesis library front-end and (2) seamless integration of
 the library into modern code-bases.
 
-The source-code for this experiment is located in [https://gitlab.com/da_doomer/python-sketch/-/tree/idea0/sketch](https://gitlab.com/da_doomer/python-sketch/-/tree/idea0/sketch).
+The source-code for this experiment is located in [https://gitlab.com/pysketch/pysketch](https://gitlab.com/pysketch/pysketch).
