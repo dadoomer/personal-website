@@ -7,19 +7,19 @@ markup: pandoc
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lw2dfjYENNE?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-It is easy to find amazing examples of insect behaviour. The [process in which
-ants build nests](https://youtu.be/ZglirAfRvWg) is complex. Everything from
-[hatching eggs](https://youtu.be/V400oXh_YTQ) and the incredible [food
+It is easy to find amazing examples of insect behaviour. The [process by which
+ants build nests](https://youtu.be/ZglirAfRvWg) is beautiful. Everything from
+[hatching eggs](https://youtu.be/V400oXh_YTQ) to the incredible [food
 gathering dynamics](https://youtu.be/OnooyOZRzkM) is awe inspiring. What drives
 these very complex behaviours in such energetically efficient systems?
 
 ## Control mechanisms in insects
 
-The control mechanisms behind insect behaviour are surprisingly complex. For
+Control mechanisms behind insect behaviour are surprisingly complex. For
 instance, insects can exhibit Pavlovian traits, altering their behaviour
 depending on previous stimulus. Even more surprisingly, insects can track some
 environmental variables (for example, bees and crabs seem to posses "home
-vectors" to track the location of their nests). Indeed, there is no single
+vectors" to track the location of their nests). There is no single
 cognitive process behind these behaviours, instead, it appears cognition in
 insects is very complex ([Cognition in insects,
 2012](http://www.originlife.ru/wp-content/uploads/2018/07/Anucleate-Neurons.pdf)).

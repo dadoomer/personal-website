@@ -6,5 +6,9 @@ date: 2020-12-23
 
 Work in progress with Yewen Pu and Robert Hawkins :D
 
-Program by talking. You can see an early prototype interface at
-[plots.iamleo.space](http://plots.iamleo.space).
+## Plots
+
+The "plot activity" demo stage has ended (you can still run it yourself by
+cloning the [git
+repository](https://gitlab.com/da_doomer/natural-language-plots/-/tree/functional_server)).
+New, fun updates coming soon :D
