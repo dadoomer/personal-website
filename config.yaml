@@ -17,7 +17,7 @@ imaging:
 params:
   description: Computer scientist.
   homeMetaContent: Computer scientist.
-  footer: Contact me at leo@iamleo.space
+  footer: Contact me at leo [at symbol] iamleo dot space
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   katex: true
