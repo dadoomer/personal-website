@@ -24,6 +24,15 @@ params:
   katex: true
   hideHeaderLinks: false
   search: true
+  showThemeSwitcher: true
+  defaultDarkTheme: false
+  moveFooterToHeader: false
+  # navTitleText: Leo's website
+  # logoAlt: An alternative text description of the logo
+  utterances:
+    repo: dadoomer/personal-website
+    issueTerm: title
+    theme: github-light
 
 
 menu:
@@ -74,3 +83,27 @@ markup:
   tableOfContents:
     endLevel: 6
     startLevel: 2
+
+
+
+
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+    - ^dart-sass-embedded$
+    - ^go$
+    - ^npx$
+    - ^postcss$
+    - ^pandoc$
+    osEnv:
+    - (?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM)$
+  funcs:
+    getenv:
+    - ^HUGO_
+    - ^CI$
+  http:
+    methods:
+    - (?i)GET|POST
+    urls:
+    - .*
