@@ -1,6 +1,8 @@
-# [personal-website](https://gitlab.com/da_doomer/personal-website)
+# personal-website
 
-My personal website's files.
+My personal website's files (iamleo.space).
+
+Root repo: [gitlab.com/da_doomer/personal-website](https://gitlab.com/da_doomer/personal-website).
 
 ## Installation
 
