@@ -1,4 +1,4 @@
-baseURL: https://www.iamleo.space
+baseURL: https://iamleo.space
 languageCode: en-us
 defaultContentLanguage: en
 title: Leonardo Hernández Cano's website
@@ -15,14 +15,16 @@ imaging:
   quality: 99
 
 params:
-  description: Computer scientist.
-  homeMetaContent: Computer scientist.
-  footer: Contact me at leo [at symbol] iamleo dot space
+  description: Leo's website.
+  homeMetaContent: Leo's website.
+  footer: '<a rel="me" href="https://mastodon.social/@da_doomer">Mastodon</a> | <a href="mailto: leo@iamleo.space">Email</a> | <a href="https://www.youtube.com/channel/UCLQL3JFR3ugCqELLu4nMA-Q">Youtube</a> | <a href="https://gitlab.com/da_doomer">Gitlab</a> | Made with <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>.'
+
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   katex: true
   hideHeaderLinks: false
   search: true
+
 
 menu:
   nav:
@@ -61,14 +63,14 @@ markup:
       unsafe: true
       xHTML: false
   highlight:
-    codeFences: false
+    codeFences: true
     hl_Lines: ""
     lineNoStart: 1
-    lineNos: false
+    lineNos: true
     lineNumbersInTable: true
     noClasses: true
     style: monokai
-    tabWidth: 4
+    tabWidth: 2
   tableOfContents:
     endLevel: 6
     startLevel: 2

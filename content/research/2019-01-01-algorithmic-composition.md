@@ -3,7 +3,7 @@ title: Algorithmic Music Composition through Program Synthesis
 date: 2019-1-1
 ---
 
-2019, Juan Antonio López-Rivera, Leonardo Hernández-Cano, Armando Solar-Lezama, Eduardo Espinosa-Avila
+2019, Juan Antonio López-Rivera, Leonardo Hernández-Cano, Eduardo Espinosa-Avila, Armando Solar-Lezama
 
 (TODO: add PDF).
 
